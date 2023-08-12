@@ -1,0 +1,63 @@
+<!-- LEVEL 2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title> 
+    <!-- press ctrl+/ for comments -->
+</head>
+<body>
+    <h1>Hii , prerna this side.<br>Nice to meet you </h1>
+   
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <h7>Heading 7</h7>
+    <p>This is a sample paragraph This is a sample paragraph This is a sample paragraph This is a sample paragraph </p>
+    <a href="https://www.google.com/">Google</a>
+    <br> <!-- br means break , so that the sentence can shift to another line-->
+    <a href="internet.lpu.in">LPU internet login</a>
+<br>
+    <a href="hellouser.html">Go to file hellouser</a>
+    <hr>
+    <img src="https://www.jiomart.com/images/product/original/rvwpkd53vy/hanish-arts-crafts-scenery-canvas-painting-handmade-painting-18-x-24-unframed-product-images-orvwpkd53vy-p590815153-0-202110082026.jpg?im=Resize=(420,420)"alt="mountain image" height="120">
+    <br>
+<!-- only use one attribute at a time -->
+    <img src="/mountain.webp"
+    alt="mountain panting"/>
+    <hr>
+    <br>
+<!-- bold,italic and underlined tag -->
+<b>She is Bold </b>
+<br>
+<i>Italic writing</i>
+<br>
+<u>underlined </u>
+<br>
+<p>She is <u>intelligent</u></p>
+
+<br>
+  <big>Big tree</big>  
+  <!-- this tag show big text -->
+<br>
+<hr>
+<!-- hr - text is used to show the line between texts  -->
+<small>small puppy</small>
+<!-- this tag show small text -->
+<p>h<sub>2</sub>0</p>
+<!-- Suppose we have to write a chemical equation or a formula of water then we will use subscript to show the numbers down -->
+<br>
+<p>3<sup>2</sup>=9</p>
+<br>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quasi sed excepturi dolore corrupti fugiat quas natus ex dignissimos odit maxime voluptatibus, minus ab amet molestiae, numquam quia possimus pariatur?</p>
+<!-- if we write lorem these lines will automatically come and lorem doesnt count spaces -->
+
+
+<var>v</var>
+</body>
+</html>
+<hr>
