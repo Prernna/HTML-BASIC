@@ -1,0 +1,69 @@
+<!-- LEVEL 3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Header </h1>
+        <h1>Projects</h1>
+    </header>
+    <!-- using pre tag(ex) -->
+    <header>
+        <pre>
+        <p>Educational           projects</p>
+    </pre>
+    </header>
+
+    <main>
+        <!-- the body can be written here -->
+    </main>
+    <footer>
+        <!-- footer is used to write the last things which are left -->
+        <h5>DM me on instagram</h5>
+
+    </footer>
+    <!-- Suppose i am creating a basic portfolio for myself -->
+    <hr>
+    <header>
+        <h1>My Portfolio</h1>
+        <main>
+            <section>Education: 10th & 12th CBSE
+
+            </section>
+            <section>
+                Skills:Dancing,Reading,Singing,Painting
+            </section>
+            <article>My story:(all your achievments and strengths)</article>
+            <aside>this is an practice
+            </aside>
+            
+            <footer>contact me on Snapchat diva123</footer>
+            <!-- Revisiting anchor tag -->
+    <a href="https://www.youtube.com/?gl=IN&tab=r1"target="_main">Youtube </a>
+    <br>
+
+    <a href="https://www.google.com/"target"_main"><img src="https://commons.wikimedia.org/"> alt="google" </a>
+    <br>
+    <span>Say Hii</span>
+    <div>
+        <p>Hello pears</p>
+        <p>Namaste everyone</p>
+        <p>hiii</p>
+    </div>
+    
+    <div>
+        <p> bye everyone        </p>
+        <p>we will meet soon</p>
+        <p>chao</p>
+    </div>
+        </main>
+    </header>
+    
+
+</body>
+</html>
