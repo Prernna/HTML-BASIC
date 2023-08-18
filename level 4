@@ -1,0 +1,126 @@
+<!-- LEVEL 4 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <main>
+            <h3>List of fruits</h3>
+            <ul>    <!--  ul=unordered list & li=list item-->
+                <li>Mango</li>
+                <ul>
+                    <li>season:summer</li>
+                <li>color:yellow,orrange</li>
+            </ul>
+                </ul>
+                <ul>
+                <li>orrange</li>
+                <li>grapes</li>
+                <li>Apple</li>
+               <ul>
+                    <li>season:winter</li>
+                    <li>color:orange</li>
+                </ul>
+            </ul>
+            <!-- ol=ordered list -->
+            <h3>List of vegetables</h3>
+            <ol>
+                <li>lady finger</li>
+                <li>cauliflower</li>
+                
+                <ol>
+                    <li>season:summer</li>
+                    <li>color:green</li>
+                </ol>
+            
+            </ol>
+            <ol>
+                <li>carrot</li>
+                <li>beans</li>
+                <ol>
+                    <li>season:winter</li>
+                    <li>color:orange and green</li>
+                </ol>
+            </ol>
+            <!-- Creating a table -->
+            <table>
+                <caption><h2>Student Data</h2></caption>
+                <thead>
+                <tr>
+                    <th>Name </th>
+                    <th>University </th>
+                    <th>Registration no. </th>
+                    <th colspan="2">Education</th>
+                    <!-- <th>Education </th>
+                    <th>Board </th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Prerna Kumari</td>
+                    <td>LPU</td>
+                    <td>12345678</td>
+                    <td>10th & 12th</td>
+                    <td>CBSE</td>
+                </tr>
+                <tr>
+                    <td>Nidhi Jha</td>
+                    <td>LPU</td>
+                    <td>76438735</td>
+                    <td>10th & 12th</td>
+                    <td>ICSE</td>
+                </tr>
+            </tbody>
+            </table>
+        </main>
+    </header>
+    <!-- here we are using form which shows the basic things required for logging in any site or page -->
+    <form action="/action.php">
+        <!-- now with input we will create a  button to write a text -->
+        <input type="text" placeholder="Enter your surname">
+        <input type="password" placeholder="type your password">
+        <input type="radio" value="male" name="gender">male
+        <input type="radio" value="female" name="gender">female
+        <br>
+
+        <!-- here this radio tag will show the choose one option and if we choose male the value of male output will be given &vice versa. at last male and female is written to print it on the screen -->
+        <label for="1">
+            <input type="radio" value="bollywood" id="1" name="Priyanka Chopra">bollywood
+        </label>
+        <label for="2">
+            <input type="radio" value="hollywood" id="2" name="Priyanka chopra">hollywood
+        </label><br>
+<select name="place" id="city name">
+    <option value="pathankot">pathankot</option>
+    <option value="delhi">delhi</option>
+    <option value="jalandhar">jalandhar</option>
+    <option value="kanpur">kanpur</option>
+</select>
+<textarea name="thoughts" id="12" placeholder="write your thoughts here."></textarea>
+<h5>select your favourite cartoon</h5>
+<label for="maths">
+    <input type="checkbox" value="math" name="subject" id="101">math
+</label><br>
+<label for="physics">
+    <input type="checkbox" value="physics" name="subject" id="102">physics
+</label><br>
+<label for="chemistry">
+    <input type="checkbox" value="chemistry" name="subject" id="103">chemistry
+</label><br>
+<label for="english">
+    <input type="checkbox" value="english" name="subject" id="104">english
+</label>
+<input type="submit" value="submit">
+    </form>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rQCdEuyVriU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    <br>
+    <br>
+    <iframe width="560" height="315" src="https://en.wikipedia.org/" frameborder="0"></iframe>
+</body>
+</html>
